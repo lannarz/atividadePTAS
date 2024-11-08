@@ -1,5 +1,5 @@
-exports.login = (rq,res) => {
-    res.send('Pagina Login')
+exports.boasvindas = (rq,res) => {
+    res.send('Boas-Vindas')
 }
 
 exports.cadastraLogin = (req,res) => {

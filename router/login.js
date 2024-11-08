@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const controller = require('../controllers/controllerLogin')
+const controller = require('../controllers/itemsController.js')
 
-router.get('/', controller.login)
+router.get('/', controller.boasvindas)
 
 router.get('/sobre', controller.cadastraLogin)
 
